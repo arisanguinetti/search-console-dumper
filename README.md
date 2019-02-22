@@ -1,2 +1,3 @@
-# search-console-dumper
+# Google Search Console Dumper
+
 This Node.js small app dumps the content of a specific site by using the Google Search Console API

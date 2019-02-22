@@ -1,0 +1,42 @@
+{
+  "name": "search-console-dumper",
+  "version": "0.0.1",
+  "description": "This Node.js small app dumps the content of a specific site by using the Google Search Console API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Ariel Sanguinetti",
+    "email": "hello@arielsanguinetti.com.ar",
+    "web": "https://arielsanguinetti.com"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arisanguinetti/search-console-dumper.git"
+  },
+  "keywords": [
+    "nodejs",
+    "redis",
+    "google",
+    "google search console",
+    "google search console api"
+  ],
+  "homepage": "https://github.com/arisanguinetti/search-console-dumper",
+  "engines": {
+    "node": ">=0.8",
+    "redis": ">=5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/arisanguinetti/search-console-dumper/issues",
+    "email": "hello@arielsanguinetti.com.ar"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "googleapis": "^37.2.0",
+    "kue": "^0.11.6",
+    "moment": "^2.24.0"
+  }
+}
